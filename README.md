@@ -6,30 +6,30 @@ Python ETL Process
 Reading the CSV File  
 The pandas library is imported and the 'Financials.csv' file is loaded into a DataFrame called df using pd.read_csv().
 
-Data Types and Overview
+Data Types and Overview  
 df.info() is used to check data types and identify missing values. df.columns displays the column names
 
-Cleaning Column Names
+Cleaning Column Names  
 Whitespace in column names is removed using df.columns.str.strip().
 
-Exploring Categorical Columns
+Exploring Categorical Columns  
 Unique values in columns like 'Segment', 'Country', etc. are displayed using df[col].unique() and all is correct, no need to transform the text.
 
-Date Column Conversion
+Date Column Conversion  
 The 'Date' column is converted to datetime format with pd.to_datetime(). Errors are coerced to NaN using
 errors='coerce'.
 
-Cleaning Numeric Columns
+Cleaning Numeric Columns  
 A list of value columns is defined that should contain numeric data. Symbols like '$', ',' and '-' are removed using
 replace().
 
-Converting Text to Numbers
+Converting Text to Numbers  
 The specified value columns are converted to numeric type using apply(pd.to_numeric, errors='coerce').
 
-Filtering Rows with Null Values
+Filtering Rows with Null Values  
 A subset of the DataFrame with null values in the 'Profit' column is shown using df[df['Profit'].isna()].
 
-Detecting and Handling Missing Values
+Detecting and Handling Missing Values  
 The percentage of missing values is calculated with df.isna().mean() * 100. Missing values in 'Profit' and 'Discounts' are
 filled with 0 using fillna().
 

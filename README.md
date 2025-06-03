@@ -34,4 +34,5 @@ The percentage of missing values is calculated with df.isna().mean() * 100. Miss
 filled with 0 using fillna().
 
 
-Data ready to be analize in PowerBI
+Data ready to be export to SQL Server
+

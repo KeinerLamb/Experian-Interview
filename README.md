@@ -3,7 +3,7 @@ A real-world scenario where a company must assess and improve the quality of its
 
 Python ETL Process
 
-Reading the CSV File
+Reading the CSV File  
 The pandas library is imported and the 'Financials.csv' file is loaded into a DataFrame called df using pd.read_csv().
 
 Data Types and Overview

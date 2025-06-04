@@ -36,3 +36,18 @@ filled with 0 using fillna().
 
 Data ready to be export to SQL Server
 
+
+
+Power BI Dashboard Documentation – Global Financial Overview for Experian
+🧾 General Description
+This Power BI dashboard was developed to provide a comprehensive financial overview of Experian’s product sales performance, specifically within the automotive sector. It analyzes various types of vehicles across multiple global regions, enabling the identification of trends in Sales and COGS (Cost of Goods Sold), as well as evaluating investments in both.
+
+🎯 Dashboard Objectives
+Analyze historical and current trends in sales and COGS.
+
+Compare investment allocation between sales and COGS by region and product type.
+
+Provide an executive-level overview to support strategic decision-making using key financial indicators.
+
+Identify regions or product segments showing significant variances or unusual behavior.
+

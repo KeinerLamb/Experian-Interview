@@ -36,6 +36,11 @@ filled with 0 using fillna().
 
 Data ready to be export to SQL Server
 
+SQL Database Creation
+A structured SQL database was developed as the foundational layer for data processing and integration. This step ensured data consistency, scalability, and efficient querying.
+
+Alteryx Workflow
+An Alteryx workflow was developed to automate data extraction, transformation, and loading 
 
 
 Power BI Dashboard Documentation – Global Financial Overview for Experian
